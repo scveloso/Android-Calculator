@@ -11,4 +11,5 @@ The manditory functions are the +,-,x and / while the other ones are optional an
 show off your mad skills (e.g. trig functions, hex calculator, exp functions, etc.).
 
 # Your comments or assumptions
-- <add them here>
+- Changed onClickListeners to anonymous classes (It's what I'm used to, hope it's okay). 
+- Added a button that retrieves current temperature in Houston, Texas (The other Android pre-task).
