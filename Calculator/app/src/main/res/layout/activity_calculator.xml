@@ -16,11 +16,13 @@
         android:layout_centerInParent="true"
         android:orientation="vertical"
         android:gravity="center">
+
         <EditText
             android:id="@+id/firstInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="First Input"/>
+            android:hint="First Input"
+            android:inputType="number" />
         <LinearLayout
             android:id="@+id/operationLayout"
             android:layout_width="match_parent"
@@ -48,12 +50,14 @@
                 android:layout_height="wrap_content"
                 android:text="/"/>
         </LinearLayout>
+
         <EditText
             android:id="@+id/secondInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:hint="Second Input"/>
+            android:hint="Second Input"
+            android:inputType="number" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/extraFunctionsLayout"
@@ -66,16 +70,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Extra functions:"/>
+
         <Button
-            android:id="@+id/operation_extra1"
+            android:id="@+id/operation_reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="func1"/>
+            android:text="C" />
+
         <Button
-            android:id="@+id/operation_extra2"
+            android:id="@+id/operation_temp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="func2"/>
+            android:text="Texas Temp" />
         <Button
             android:id="@+id/operation_extra3"
             android:layout_width="wrap_content"
@@ -84,4 +90,19 @@
 
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
 </RelativeLayout>

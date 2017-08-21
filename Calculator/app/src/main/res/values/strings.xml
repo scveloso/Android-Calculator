@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="result">%1$d</string>
+    <string name="divide_by_zero">Cannot divide by 0. Please enter a different second input.</string>
+    <string name="fields_reset">Input fields have been reset.</string>
+    <string name="houston_temp_output">Current temperature in Houston, Texas is: %1$dF</string>
 </resources>
