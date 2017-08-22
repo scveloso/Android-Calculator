@@ -82,11 +82,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Texas Temp" />
-        <Button
-            android:id="@+id/operation_extra3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="func3"/>
 
 
     </LinearLayout>

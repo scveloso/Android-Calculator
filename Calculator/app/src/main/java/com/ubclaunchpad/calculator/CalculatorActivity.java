@@ -159,7 +159,7 @@ public class CalculatorActivity extends AppCompatActivity {
                     bufferedReader.close();
                     return stringBuilder.toString();
                 }
-                finally{
+                finally {
                     urlConnection.disconnect();
                 }
             }
